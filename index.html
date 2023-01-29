@@ -20,24 +20,7 @@
     <div class="reveal">
       <div class="slides">
         <section>Slide 1</section>
-
-        <section
-          style="text-align: left"
-          data-markdown="md/example.md"
-        ></section>
-
         <section>Slide 2</section>
-        <section data-markdown>
-          <textarea data-template>
-            ## Inline MD slide a
-            A paragraph with some text and a [link](https://congineer.com).
-            ---
-            ## Inline MD slide b
-            ---
-            ## Inline MD slide c
-          </textarea>
-        </section>
-
         <section>
           <section>Slide 3</section>
           <section>Slide 3.1</section>
@@ -51,45 +34,13 @@
     <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
     <script>
-      ;(function applyMarkdownCommonSettings() {
-        // Get a list of all DOM elements that import Markdown files
-        const mdSectionsAll = document.querySelectorAll(
-          'section[data-markdown$=".md"]'
-        )
-        // console.log('mdSectionsAll', mdSectionsAll)
-
-        // Apply common Markdown settings to every DOM element
-        mdSectionsAll.forEach(e => {
-          e.dataset.separator = '(\r?\n\r?\n\r?\n|^@NEXT-H)' // \r for Windows and \n for Mac/Linux
-          e.dataset.separatorVertical = '(^\r?\n\r?\n|^@NEXT-V)' // \n would be enough for Mac/Linux
-          e.dataset.separatorNotes = '^Note:'
-          e.dataset.charset = 'iso-8859-15'
-        })
-      })()
-    </script>
-
-    <script>
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-        hashOneBasedIndex: true,
-        slideNumber: 'h/v',
-        showSlideNumber: 'all', // https://revealjs.com/slide-numbers/
-        // slideNumber: slide => {
-        //   let { h, v, f } = Reveal.getIndices(slide) // horizontal, vertical number
-        //   const t = Reveal.getTotalSlides() // total slides
-
-        //   // Emulate URL to index matching config: hashOneBasedIndex: true
-        //   h++
-        //   v !== undefined && v++
-
-        //   // Custom numbering format that matches URL schema: h/v
-        //   // and - total number of slides, i.e. conditionally h-t or h.v-t
-        //   return [v ? `${h}/${v}-${t}` : `${h}-${t}`]
-        // },
-
+        slideNumber: 'h.v',
+        showSlideNumber: 'print',
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
       })
