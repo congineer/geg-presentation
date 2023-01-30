@@ -344,3 +344,14 @@ body.print-pdf .reveal .slide-menu-button,
 body.print-pdf .slide-menu-wrapper .slide-menu-overlay {
   display: none;
 }
+
+/*
+ * FIX: Hide menu for pdf printing
+ * as of Feb. 2023
+ * the head.print-pdf is used instead of body.print-pdf
+ */
+.print-pdf .slide-menu-wrapper .slide-menu,
+.print-pdf .reveal .slide-menu-button,
+.print-pdf .slide-menu-wrapper .slide-menu-overlay {
+  display: none;
+}
