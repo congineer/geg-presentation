@@ -50,9 +50,13 @@
     </div>
 
     <script src="dist/reveal.js"></script>
-    <script src="plugin/notes/notes.js"></script>
-    <script src="plugin/markdown/markdown.js"></script>
     <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/search/search.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+
     <script>
       ;(function applyMarkdownCommonSettings() {
         // Get a list of all DOM elements that import Markdown files
@@ -94,7 +98,14 @@
         // },
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+        plugins: [
+          RevealHighlight,
+          RevealMarkdown,
+          RevealSearch,
+          RevealNotes,
+          RevealZoom,
+          RevealMath
+        ]
       })
     </script>
   </body>
