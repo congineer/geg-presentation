@@ -21,7 +21,7 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section data-markdown="md/intro.md"></section>
+        <section data-markdown="md/title.md"></section>
         <section data-markdown="md/about_me.md"></section>
         <section data-markdown="md/jorney_into_it.md"></section>
         <section data-markdown="md/why_i_am_here.md"></section>
@@ -122,6 +122,8 @@
           RevealMath,
           RevealMenu // https://github.com/denehyg/reveal.js-menu#configuration
         ],
+
+        // Menu config
         menu: {
           numbers: 'c',
           openSlideNumber: true,
@@ -132,16 +134,33 @@
             {
               title: 'Links',
               icon: '<i class="fa fa-bookmark">',
-              src: 'links.html'
+              src: 'menu/links.html'
+            },
+            {
+              title: 'Print',
+              icon: '<i class="fa fa-print">',
+              src: 'menu/print.html'
             }
           ]
         }
       })
 
-      toggleMenu = () => {
-        let menu = Reveal.getPlugin('menu')
+      // Menu helpers
+      const toggleMenu = () => {
+        const menu = Reveal.getPlugin('menu')
         if (menu) menu.toggle()
       }
+      const hideMenu = event => {
+        const menu = document.querySelector('.slide-menu-button')
+        if (menu) menu.hidden = true
+      }
+      const showMenu = event => {
+        const menu = document.querySelector('.slide-menu-button')
+        if (menu) menu.hidden = false
+      }
+      // Hide Menu for print
+      window.addEventListener('beforeprint', hideMenu)
+      window.addEventListener('afterprint', showMenu)
     </script>
   </body>
 </html>
