@@ -33,12 +33,12 @@
   .element: target="_blank" --> in [TI-BASIC](https://en.wikipedia.org/wiki/TI-BASIC) <!--
   .element: target="_blank" --> at [KSBA](https://www.kanti-baden.ch/) <!--
   .element: target="_blank" -->
-- Master thesis ([Mathematica](https://www.wolfram.com/mathematica/) <!--
-    .element: target="_blank" -->, [Matlab](https://ch.mathworks.com/products/matlab.html)) <!--
-    .element: target="_blank" --> at <!--
-    .element: class="fragment"
-    --> [ETHZ](https://ethz.ch/en.html) <!--
-    .element: target="_blank" -->
+- Master thesis <!--
+  .element: class="fragment"
+  --> ([Mathematica](https://www.wolfram.com/mathematica/) <!--
+  .element: target="_blank" -->, [Matlab](https://ch.mathworks.com/products/matlab.html)) <!--
+  .element: target="_blank" --> at [ETHZ](https://ethz.ch/en.html) <!--
+  .element: target="_blank" -->
 - Smart-PDFs via <!--
   .element: class="fragment"
   --> [Acrobat JavaScript API](https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/index.html) <!--
