@@ -6,6 +6,6 @@
 
 ---
 
-Presentation at ETHZ [GEG](https://geg.ethz.ch/) Feb. 1, 2023
+Presentation at ETHZ [GEG](https://geg.ethz.ch/) <!-- .element: target="_blank" --> Feb. 1, 2023
 
 ---
