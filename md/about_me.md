@@ -25,7 +25,7 @@
   .element: class="fragment"
   --> [KSBA](https://www.kanti-baden.ch/) <!--
   .element: target="_blank" -->
-- 2002-2009 MSc <!--
+- 2002-2009 Master of Science <!--
   .element: class="fragment"
   --> [ETHZ](https://ethz.ch/en.html) <!--
   .element: target="_blank" -->
@@ -38,7 +38,7 @@
 
 ## Career
 
-- 2010-2013 Execuive Assistant to CEO at <!--
+- 2010-2013 Executive Assistant to CEO at <!--
   .element: class="fragment"
   --> [Samro AG](https://www.samro.ch/) <!--
   .element: target="_blank" -->

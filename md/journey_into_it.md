@@ -1,6 +1,6 @@
 # My journey into IT <!-- .element: style="text-align: center" -->
 
-## Theory ag. Practice <!-- .element: style="text-align: center" -->
+## Theory vs Practice <!-- .element: style="text-align: center" -->
 
 <!-- .element: class="fragment" -->
 
@@ -8,7 +8,7 @@
 
 ## Theory
 
-- High school Informatics class in Kyiv <!--
+- High school Informatics class in Kyiv, Ukraine <!--
   .element: class="fragment" -->
 - Computer Science courses at <!--
   .element: class="fragment"
@@ -18,7 +18,7 @@
   .element: class="fragment"
   --> [UZH](https://www.uzh.ch/en.html) <!--
   .element: target="_blank" -->
-- Assesments for the IPMA certificate <!--
+- Assessments for the IPMA certificate <!--
   .element: class="fragment"
   --> [VZPM](https://www.vzpm.ch/en/certification/certification-of-persons/ipma-level-d) <!--
   .element: target="_blank" -->
@@ -33,10 +33,12 @@
   .element: target="_blank" --> in [TI-BASIC](https://en.wikipedia.org/wiki/TI-BASIC) <!--
   .element: target="_blank" --> at [KSBA](https://www.kanti-baden.ch/) <!--
   .element: target="_blank" -->
-- Master thesis at <!--
-  .element: class="fragment"
-  --> [ETHZ](https://ethz.ch/en.html) <!--
-  .element: target="_blank" -->
+- Master thesis ([Mathematica](https://www.wolfram.com/mathematica/) <!--
+    .element: target="_blank" -->, [Matlab](https://ch.mathworks.com/products/matlab.html)) <!--
+    .element: target="_blank" --> at <!--
+    .element: class="fragment"
+    --> [ETHZ](https://ethz.ch/en.html) <!--
+    .element: target="_blank" -->
 - Smart-PDFs via <!--
   .element: class="fragment"
   --> [Acrobat JavaScript API](https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/index.html) <!--
@@ -47,7 +49,7 @@
   .element: class="fragment"
   --> [WordPress](https://wordpress.org/) <!--
   .element: target="_blank" --> apps while freelancing
-- Full-stack applications at <!--
+- Full-stack web applications at <!--
   .element: class="fragment"
   --> [CONGINEER Ltd](https://congineer.com/) <!--
   .element: target="_blank" -->

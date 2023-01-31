@@ -2,12 +2,12 @@
 
 ![CONGINEER logo](images/congineer_logo.png)
 
-## Full-stack Developer
+## Full-stack web developer
 
 ---
 
-Presentation at ETHZ [GEG](https://geg.ethz.ch/) <!--
+Presentation for [GEG](https://geg.ethz.ch/) <!--
 .element: target="_blank"
---> Feb. 1, 2023
+--> Group, ETHZ, on Feb.1, 2023
 
 ---
