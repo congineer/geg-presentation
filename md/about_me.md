@@ -10,7 +10,7 @@
 
 ### Ukraine
 
-<!-- .element: class="fragment" style="text-align: left" -->
+<!-- .element: class="fragment" style="text-align: left;" -->
 
 - 1998-2000 High School Graduate in Kyiv <!--
   .element: class="fragment" -->
@@ -19,7 +19,7 @@
 
 ### Switzerland
 
-<!-- .element: class="fragment" style="text-align: left" -->
+<!-- .element: class="fragment" style="text-align: left;" -->
 
 - 2000-2002 High School Student at <!--
   .element: class="fragment"

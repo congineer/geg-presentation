@@ -1,6 +1,6 @@
-# My journey into IT <!-- .element: style="text-align: center" -->
+# My journey into IT
 
-## Theory vs Practice <!-- .element: style="text-align: center" -->
+## Theory and Practice
 
 <!-- .element: class="fragment" -->
 
