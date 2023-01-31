@@ -22,6 +22,12 @@
       <div class="slides">
         <section data-markdown="md/title.md"></section>
         <section data-markdown="md/about_me.md"></section>
+
+        <!-- <section
+          data-markdown="md/education.md"
+          style="text-align: left"
+        ></section> -->
+
         <section data-markdown="md/jorney_into_it.md"></section>
         <section data-markdown="md/why_i_am_here.md"></section>
         <section data-markdown="md/what_is_geg_posting_about.md"></section>
@@ -81,8 +87,15 @@
 
         // Apply common Markdown settings to every DOM element
         mdSectionsAll.forEach(e => {
-          e.dataset.separator = '(\r?\n\r?\n\r?\n|^@NEXT-H)' // \r for Windows and \n for Mac/Linux
-          e.dataset.separatorVertical = '(^\r?\n\r?\n|^@NEXT-V)' // \n would be enough for Mac/Linux
+          // \r for Windows and \n for Mac/Linux
+          // \n would be enough for Mac/Linux
+          // standard comment with two dashes --
+          // pandoc ignore comment with three ---: https://stackoverflow.com/a/4829998
+          // if nothing works use explicit tag @NEXT-
+          e.dataset.separator =
+            '(\r?\n\r?\n\r?\n|^@NEXT-H|^<!-- NEXT-H -->|^<!--- NEXT-H -->)'
+          e.dataset.separatorVertical =
+            '(^\r?\n\r?\n|^@NEXT-V|^<!-- NEXT-V -->|^<!--- NEXT-V -->)'
           e.dataset.separatorNotes = '^Note:'
           e.dataset.charset = 'iso-8859-15'
         })
@@ -96,6 +109,8 @@
       Reveal.initialize({
         // Transition style
         transition: 'convex', // none/fade/slide/convex/concave/zoom
+        // Prints each fragment on a separate slide
+        pdfSeparateFragments: false,
 
         hash: true,
         hashOneBasedIndex: true,
