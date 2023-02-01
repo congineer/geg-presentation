@@ -1,4 +1,4 @@
-# Technical tidbits
+## Technical tidbits
 
 <!-- .slide: data-background="#ff0000" -->
 

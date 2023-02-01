@@ -1,8 +1,8 @@
-# Anton Kulik
+## Anton Kulik
 
 ![CONGINEER logo](images/congineer_logo.png)
 
-## Full-stack web developer
+### Full-stack web developer
 
 ---
 

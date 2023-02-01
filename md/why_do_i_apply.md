@@ -1,10 +1,10 @@
-# Why do I apply?
+## Why do I apply?
 
-## Motivation and Opportunity <!-- .element: class="fragment" -->
+### Motivation and Opportunity <!-- .element: class="fragment" -->
 
 <!-- NEXT-V -->
 
-## Motivation
+### Motivation
 
 My experiences range from (own) IT support to complex web services for engineering and research. <!-- .element: class="fragment" style="text-align: left;" -->
 
@@ -12,7 +12,7 @@ My desire is to make the most use of my skills and knowledge for a mutual benefi
 
 <!-- NEXT-V -->
 
-## Opportunity
+### Opportunity
 
 The <!--
 .element: class="fragment" style="text-align: left;" --> [job](https://geg.ethz.ch/open-positions/) <!--

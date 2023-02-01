@@ -1,14 +1,14 @@
-# About Me
+## About Me
 
-## I make information available on web
+### I make information available on web
 
 <!-- .element: class="fragment" -->
 
 <!-- NEXT-V -->
 
-## Education
+### Education
 
-### Ukraine
+#### Ukraine
 
 <!-- .element: class="fragment" style="text-align: left;" -->
 
@@ -17,7 +17,7 @@
 
 ---
 
-### Switzerland
+#### Switzerland
 
 <!-- .element: class="fragment" style="text-align: left;" -->
 
@@ -36,7 +36,7 @@
 
 <!-- NEXT-V -->
 
-## Career
+### Career
 
 - 2010-2013 Executive Assistant to CEO at <!--
   .element: class="fragment"

@@ -1,12 +1,12 @@
-# My journey into IT
+## My journey into IT
 
-## Theory and Practice
+### Theory and Practice
 
 <!-- .element: class="fragment" -->
 
 <!-- NEXT-V -->
 
-## Theory
+### Theory
 
 - High school Informatics class in Kyiv, Ukraine <!--
   .element: class="fragment" -->
@@ -25,7 +25,7 @@
 
 <!-- NEXT-V -->
 
-## Practice
+### Practice
 
 - OS apps layer for <!--
   .element: class="fragment"
