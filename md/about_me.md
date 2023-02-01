@@ -1,6 +1,6 @@
 # About Me
 
-## I make information available on the web
+## I make information available on web
 
 <!-- .element: class="fragment" -->
 
