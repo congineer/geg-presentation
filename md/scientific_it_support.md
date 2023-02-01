@@ -6,6 +6,8 @@
 
 ## Troubleshoot
 
+### IR - Incident Response to any outage <!-- .element: class="fragment" -->
+
 ### SysOps - administration of computer systems <!-- .element: class="fragment" -->
 
 ### DevOps - automation of development pipeline <!-- .element: class="fragment" -->
@@ -14,6 +16,8 @@
 
 ## Enable
 
-### Collaboration - bridge to <!-- .element: class="fragment" -->[ETH SIS](https://sis.id.ethz.ch/about.html)<!-- .element: target="_blank" --> ([video](https://www.youtube.com/watch?v=NzAco47UZrA")<!-- .element: target="_blank" -->)
+### Security - setup, check and update <!-- .element: class="fragment" -->
 
-### Platform - purpose build infrastructure <!-- .element: class="fragment" -->
+### Collaboration - common environment <!-- .element: class="fragment" -->([JupyterHub](https://jupyter.org/hub)<!-- .element: target="_blank" -->)
+
+### Communication - build a bridge with <!-- .element: class="fragment" -->[ETH SIS](https://sis.id.ethz.ch/about.html)<!-- .element: target="_blank" --> ([video](https://www.youtube.com/watch?v=NzAco47UZrA")<!-- .element: target="_blank" -->)
