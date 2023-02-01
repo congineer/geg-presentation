@@ -16,8 +16,8 @@
 
 ## Enable
 
-### Security - setup, check and update <!-- .element: class="fragment" -->
+### Security - setup, check and update <!-- .element: class="fragment" -->([Example](https://www.ssllabs.com/ssltest/analyze.html?d=cemgems.app&latest)<!-- .element: target="_blank" -->)
 
-### Collaboration - common environment <!-- .element: class="fragment" -->([JupyterHub](https://jupyter.org/hub)<!-- .element: target="_blank" -->)
+### Collaboration - computing env. <!-- .element: class="fragment" -->([JupyterHub](https://jupyter.org/hub)<!-- .element: target="_blank" -->)
 
 ### Communication - build a bridge with <!-- .element: class="fragment" -->[ETH SIS](https://sis.id.ethz.ch/about.html)<!-- .element: target="_blank" --> ([video](https://www.youtube.com/watch?v=NzAco47UZrA")<!-- .element: target="_blank" -->)
