@@ -11,10 +11,37 @@
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/solarized.css" id="theme" />
+    <link rel="stylesheet" href="dist/theme/white.css" id="theme" />
 
     <!-- Theme used for syntax highlighted code -->
-    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+    <link
+      rel="stylesheet"
+      href="plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+
+    <script>
+      ;(function applyCustomSelections() {
+        // Get user selected theme from local storage
+        const theme = localStorage?.['theme']
+        const themeStyleNode = document.querySelector('link#theme')
+        if (theme && themeStyleNode) {
+          themeStyleNode.href = theme
+        }
+
+        // Get user selected highlight theme from local storage
+        // NOTE: not in use since no switch in menu present
+        const highlightTheme = localStorage?.['highlight-theme']
+        const highlightThemeStyleNode = document.querySelector(
+          'link#highlight-theme'
+        )
+        if (highlightTheme && highlightThemeStyleNode) {
+          highlightThemeStyleNode.href = highlightTheme
+        }
+
+        // TODO: transisions switch to local storage
+      })()
+    </script>
   </head>
 
   <body>
@@ -51,7 +78,6 @@
     <script src="plugin/math/math.js"></script>
     <script src="plugin/zoom/zoom.js"></script>
     <script src="plugin/menu/menu.js"></script>
-
     <script>
       ;(function applyMarkdownCommonSettings() {
         // Get a list of all DOM elements that import Markdown files
@@ -138,13 +164,15 @@
       })
 
       // Menu helpers
-      const toggleMenu = () => {
-        const menu = Reveal.getPlugin('menu')
-        if (menu) menu.toggle()
-      }
+      // const toggleMenu = () => {
+      //   const menu = Reveal.getPlugin('menu')
+      //   if (menu) menu.toggle()
+      // }
       const hideMenu = event => {
         const menu = document.querySelector('.slide-menu-button')
         if (menu) menu.hidden = true
+        const theme = document.querySelector('link#theme')
+        console.log('theme href', theme.href)
       }
       const showMenu = event => {
         const menu = document.querySelector('.slide-menu-button')
