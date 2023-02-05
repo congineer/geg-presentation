@@ -8,7 +8,7 @@
 
 Presentation for [GEG](https://geg.ethz.ch/) <!--
 .element: target="_blank"
---> Group, ETHZ, on Feb.1, 2023
+--> Group, ETHZ, on Feb.8, 2023
 
 ---
 
