@@ -1,4 +1,4 @@
-## Anton Kulik
+## Anton Kulik <!-- markdownlint-disable MD041-->
 
 ![CONGINEER logo](images/congineer_logo.png)
 

@@ -1,4 +1,4 @@
-## My journey into IT
+## My journey into IT <!-- markdownlint-disable MD041-->
 
 ### Theory and Practice
 

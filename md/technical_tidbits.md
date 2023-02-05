@@ -1,4 +1,4 @@
-## Technical tidbits
+## Technical tidbits <!-- markdownlint-disable MD041-->
 
 <!-- .slide: data-background="#ff0000" -->
 

@@ -1,4 +1,4 @@
-## Full-stack Web Dev
+## Full-stack Web Dev <!-- markdownlint-disable MD041-->
 
 ### CMS and Custom Apps <!-- .element: class="fragment" -->
 

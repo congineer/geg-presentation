@@ -1,4 +1,4 @@
-## Why do I apply?
+## Why do I apply? <!-- markdownlint-disable MD041-->
 
 ### Motivation and Opportunity <!-- .element: class="fragment" -->
 

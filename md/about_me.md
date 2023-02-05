@@ -1,4 +1,4 @@
-## About Me
+## About Me <!-- markdownlint-disable MD041-->
 
 ### I make information available on web
 

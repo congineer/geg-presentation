@@ -1,4 +1,4 @@
-## Scientific IT Support
+## Scientific IT Support <!-- markdownlint-disable MD041-->
 
 ### Troubleshoot and enable <!-- .element: class="fragment" -->
 
