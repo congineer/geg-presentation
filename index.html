@@ -163,17 +163,21 @@
         }
       })
 
-      // Menu helpers
-      // const toggleMenu = () => {
-      //   const menu = Reveal.getPlugin('menu')
-      //   if (menu) menu.toggle()
-      // }
+      // Toggle menu with the 'M' key
+      const toggleMenu = () => {
+        const menu = Reveal.getPlugin('menu')
+        if (menu) menu.toggle()
+      }
+
+      // Hide menu, e.g. before Print BOM dialog
       const hideMenu = event => {
         const menu = document.querySelector('.slide-menu-button')
         if (menu) menu.hidden = true
         const theme = document.querySelector('link#theme')
         console.log('theme href', theme.href)
       }
+
+      // Show menu, e.g. after Print BOM dialog
       const showMenu = event => {
         const menu = document.querySelector('.slide-menu-button')
         if (menu) menu.hidden = false
