@@ -104,12 +104,15 @@
     </script>
 
     <script>
+      // Get transition style from last selected OR fallback if a virgin load
+      const transition = localStorage?.['transition'] || 'convex'
+
       // More info about initialization & config:
       // - https://revealjs.com/initialization/
       // - https://revealjs.com/config/
       Reveal.initialize({
         // Transition style
-        transition: 'convex', // none/fade/slide/convex/concave/zoom
+        transition: transition, // none/fade/slide/convex/concave/zoom
         // Prints each fragment on a separate slide
         pdfSeparateFragments: false,
 
