@@ -8,17 +8,17 @@ _How was this presentation made?_
 
 ### Framework
 
-#### Plan project architecture <!-- .element: class="fragment" -->([ALM](https://alm.congineer.com/projects/geg-presentation)<!-- .element: target="_blank" -->)
+#### Planning project architecture <!-- .element: class="fragment" -->([ALM](https://alm.congineer.com/projects/geg-presentation)<!-- .element: target="_blank" -->)
 
-#### Scaffold presentation code <!-- .element: class="fragment" -->([Reveal.js](https://revealjs.com)<!-- .element: target="_blank" -->)
+#### Scaffolding presentation code <!-- .element: class="fragment" -->([Reveal.js](https://revealjs.com)<!-- .element: target="_blank" -->)
 
-#### Add useful plugins <!-- .element: class="fragment" -->([Menu](https://github.com/denehyg/reveal.js-menu)<!-- .element: target="_blank" -->)
+#### Adding useful plugins <!-- .element: class="fragment" -->([Menu](https://github.com/denehyg/reveal.js-menu)<!-- .element: target="_blank" -->)
 
 <!-- NEXT-V -->
 
 ### Customizations
 
-#### Document all deployment quirks <!-- .element: class="fragment" data-fragment-index="7" -->
+#### Documenting deployment quirks <!-- .element: class="fragment" data-fragment-index="7" -->
 
 - <!-- .element: class="fragment" data-fragment-index="7" -->DNS (Domain Name System)
   - setup [#245](https://alm.congineer.com/plugins/tracker/?aid=245) <!--
@@ -27,7 +27,7 @@ _How was this presentation made?_
 
 ---
 
-#### Enhance code for functionality <!-- .element: class="fragment" data-fragment-index="832" -->
+#### Enhancing code functionality <!-- .element: class="fragment" data-fragment-index="832" -->
 
 - <!-- .element: class="fragment" data-fragment-index="832" -->Amend code for state, navigation, and export
   - persist user state change [#264](https://alm.congineer.com/plugins/tracker/?aid=264) <!--
