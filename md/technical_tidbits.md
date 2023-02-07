@@ -1,7 +1,13 @@
-## Technical tidbits <!-- markdownlint-disable MD041-->
+## Technical Tidbits <!-- markdownlint-disable MD041-->
 
-<!-- .slide: data-background="#ff0000" -->
+_How did this presentation get made?_
 
-A paragraph with some text and a [link](https://congineer.com).
+### Framework and Customizations <!-- .element: class="fragment" -->
 
----
+<!-- NEXT-V -->
+
+### Framework
+
+<!-- NEXT-V -->
+
+### Customizations
