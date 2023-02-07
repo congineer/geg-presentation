@@ -166,12 +166,20 @@
         }
       })
 
+      // Expand "?" key, that requires a SHIFT on ENG/GER keyboards, with underlying "/", "\"
+      Reveal.configure({
+        keyboard: {
+          191: 'toggleHelp', // key: '/'
+          220: 'toggleHelp' // key: '\'
+        }
+      })
+
       // Toggle menu with the 'M' key
-      // TODO: check if any effect here or comes from Plugin code instead
-      const toggleMenu = () => {
-        const menu = Reveal.getPlugin('menu')
-        if (menu) menu.toggle()
-      }
+      // // TODO: check if any effect here or comes from Plugin code instead
+      // const toggleMenu = () => {
+      //   const menu = Reveal.getPlugin('menu')
+      //   if (menu) menu.toggle()
+      // }
 
       // Hide menu, e.g. before Print BOM dialog
       const hideMenu = event => {
