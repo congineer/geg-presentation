@@ -8,7 +8,9 @@ _How was this presentation made?_
 
 ### Framework
 
-#### Planning project architecture <!-- .element: class="fragment" -->([ALM](https://alm.congineer.com/projects/geg-presentation)<!-- .element: target="_blank" -->)
+#### Planning project architecture <!-- .element: class="fragment" data-fragment-index="2" -->([ALM](https://alm.congineer.com/projects/geg-presentation)<!-- .element: target="_blank" -->)
+
+![image](images/geg_presentation_architecture_screenshot_20230128_210714.png) <!-- .element: class="fragment step-fade-in-then-out" data-fragment-index="2" -->
 
 #### Scaffolding presentation code <!-- .element: class="fragment" -->([Reveal.js](https://revealjs.com)<!-- .element: target="_blank" -->)
 

@@ -2,7 +2,11 @@
 
 ### I make information available on web
 
-<!-- .element: class="fragment" -->
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
+| ![image](images/kulik_anton_pic_circle_200x200px.png) <!-- .element: class="fragment step-fade-in-then-out" data-fragment-index="1" --> | ![image](images/information_to_web_256x200px.png) <!-- .element: class="fragment step-fade-in-then-out" data-fragment-index="1" --> |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                                                                         |                                                                                                                                     |
 
 <!-- NEXT-V -->
 
