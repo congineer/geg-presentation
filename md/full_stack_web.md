@@ -14,4 +14,7 @@
 
 ### Creating advanced Web Applications <!-- .slide: data-menu-title="Advanced Web Apps"-->
 
-#### Breaking technology boundaries <!-- .element: class="fragment" data-fragment-index="1" -->([Example](https://cemgems.app/)<!-- .element: target="_blank" -->)
+#### Breaking technology boundaries <!-- .element: class="fragment" data-fragment-index="3" -->([Example](https://cemgems.app/)<!-- .element: target="_blank" -->)
+
+| ![WebAssembly logo](images/webassembly_logo_363x200px.png) <!-- .element: class="fragment step-fade-in-then-out" data-fragment-index="3" --> | ![ArangoDB logo](images/arangodb_stacking_logo_309x200px.webp) <!-- .element: class="fragment step-fade-in-then-out" data-fragment-index="3" --> | ![PouchDB logo](images/wiki_pouchdb_logo_155x200.png) <!-- .element: class="fragment step-fade-in-then-out" data-fragment-index="3" --> |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
