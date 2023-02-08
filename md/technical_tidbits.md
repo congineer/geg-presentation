@@ -2,7 +2,9 @@
 
 _How was this presentation made?_
 
-### Framework and Customizations <!-- .element: class="fragment" -->
+### Framework and Customizations <!-- .element: class="fragment" data-fragment-index="1" -->
+
+![Reveal.js logo](images/revealjs_logo_310x100px.png) <!-- .element: class="fragment step-fade-in-then-out" data-fragment-index="1" -->
 
 <!-- NEXT-V -->
 

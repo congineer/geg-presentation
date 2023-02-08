@@ -1,6 +1,6 @@
 ## Full-stack Web Dev <!-- markdownlint-disable MD041-->
 
-### CMS and Custom Apps <!-- .element: class="fragment" -->
+### CMS and Custom Apps <!-- .element: class="fragment" data-fragment-index="1" -->
 
 <!-- NEXT-V -->
 
